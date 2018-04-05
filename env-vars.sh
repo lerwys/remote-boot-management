@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 GITHUB_BASE_URL="https://github.com"
-GITHUB_ORG=lerwys
+GITHUB_ORG=lnls-sirius
 DOCKER_TAG=lnlsdig
 GITHUB_REPOS_DOCKER=( \
     "docker-nfs-server" \
