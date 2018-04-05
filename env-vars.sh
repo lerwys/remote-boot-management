@@ -9,7 +9,7 @@ GITHUB_REPOS_DOCKER=( \
     "docker-dhcpd" \
     "docker-bind" \
 )
-# Important to keep this synch'ed with 
+# Important to keep this synch'ed with
 # GITHUB_REPOS_DOCKER
 DOCKER_NAMES=( \
     "nfs-server" \
