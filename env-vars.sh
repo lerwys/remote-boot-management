@@ -2,7 +2,7 @@
 
 GITHUB_BASE_URL="https://github.com"
 GITHUB_ORG=lnls-sirius
-DOCKER_TAG=lnlsdig
+DOCKER_TAG=lnls
 GITHUB_REPOS_DOCKER=( \
     "docker-nfs-server" \
     "docker-tftp-hpa" \
