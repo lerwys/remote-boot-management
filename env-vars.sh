@@ -4,27 +4,27 @@ GITHUB_BASE_URL="https://github.com"
 GITHUB_ORG=lnls-sirius
 DOCKER_TAG=lnls
 GITHUB_REPOS_DOCKER=( \
-    "docker-nfs-server" \
-    "docker-tftp-hpa" \
-    "docker-dhcpd" \
     "docker-bind" \
+    "docker-dhcpd" \
     "docker-debian-base-image" \
+    "docker-tftp-hpa" \
+    "docker-nfs-server" \
 )
 # Important to keep this synch'ed with
 # GITHUB_REPOS_DOCKER
 DOCKER_NAMES=( \
-    "nfs-server" \
-    "tftp-hpa" \
-    "dhcpd" \
     "bind" \
+    "dhcpd" \
     "debian-base-image" \
+    "tftp-hpa" \
+    "nfs-server" \
 )
 GITHUB_REPOS_DOCKER_COMPOSED=( \
     "docker-registry-composed" \
-    "docker-nfs-server-composed" \
-    "docker-tftp-hpa-composed" \
-    "docker-dhcpd-composed" \
     "docker-bind-composed" \
+    "docker-dhcpd-composed" \
+    "docker-tftp-hpa-composed" \
+    "docker-nfs-server-composed" \
 )
 GITHUB_REPOS_MISC=(\
     "debian-rootfs" \
