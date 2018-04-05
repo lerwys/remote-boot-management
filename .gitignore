@@ -1,0 +1,6 @@
+# Text editors swap/temporary files
+*~
+*.swp
+*.orig
+*.bak
+*.o
