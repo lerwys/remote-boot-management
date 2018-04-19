@@ -20,12 +20,16 @@ DOCKER_NAMES=( \
     "tftp-hpa" \
     "nfs-server" \
 )
+# Special place for CA gateway
+GITHUB_CA_GATEWAY_BASE_URL="https://github.com"
+GITHUB_CA_GATEWAY_ORG=lnls-dig
 GITHUB_REPOS_DOCKER_COMPOSED=( \
     "${GITHUB_REPOS_PREFIX}docker-registry-composed" \
     "${GITHUB_REPOS_PREFIX}docker-bind-composed" \
     "${GITHUB_REPOS_PREFIX}docker-dhcpd-composed" \
     "${GITHUB_REPOS_PREFIX}docker-tftp-hpa-composed" \
     "${GITHUB_REPOS_PREFIX}docker-nfs-server-composed" \
+    "${GITHUB_REPOS_PREFIX}docker-ca-gateway-composed-deploy" \
 )
 GITHUB_REPOS_MISC=(\
     "${GITHUB_REPOS_PREFIX}debian-rootfs" \
